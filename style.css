@@ -86,6 +86,25 @@ li {
     outline-offset: 4px;
 }
 
+/* Stili per le tabelle */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    color: blue;
+}
+
+th {
+    background-color: yellow;
+}
+
+td {
+    text-align: center;
+}
+
 /* Piè di pagina */
 footer {
     padding: 15px;
@@ -93,3 +112,4 @@ footer {
     font-size: 14px;
     color: #526174;
 }
+
