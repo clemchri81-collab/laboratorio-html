@@ -86,26 +86,23 @@ li {
     outline-offset: 4px;
 }
 
-/* Formattazione della tabella */
-tabella {
-    bordo collassato: comprimi;
+/* --- STILI PER LE TABELLE (come da immagine LIM Zanichelli) --- */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /* Consigliato per unire i bordi delle celle */
 }
 
-tabella, th, td {
-    bordo: 1pxnero pieno;
-}
-
-didascalia {
-    font-weight: grassetto;
-    colore: blu;
+caption {
+    font-weight: bold;
+    color: blue;
 }
 
 th {
-    colore di sfondo:giallo;
+    background-color: yellow;
 }
 
 td {
-    allineamento testo: centro;
+    text-align: center;
 }
 
 /* Piè di pagina */
