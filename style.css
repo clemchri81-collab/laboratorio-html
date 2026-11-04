@@ -86,25 +86,6 @@ li {
     outline-offset: 4px;
 }
 
-/* --- STILI PER LE TABELLE (come da immagine LIM Zanichelli) --- */
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse; /* Consigliato per unire i bordi delle celle */
-}
-
-caption {
-    font-weight: bold;
-    color: blue;
-}
-
-th {
-    background-color: yellow;
-}
-
-td {
-    text-align: center;
-}
-
 /* Piè di pagina */
 footer {
     padding: 15px;
@@ -112,5 +93,7 @@ footer {
     font-size: 14px;
     color: #526174;
 }
-
-
+table, th, td {border: 1px solid black;}
+    caption {font-weight:bold; color: blue}
+    th {background-color: yellow;}
+    td {text-align: center;}
