@@ -92,7 +92,7 @@ tabella {
 }
 
 tabella, th, td {
-    bordo: 1px nero pieno;
+    bordo: 1pxnero pieno;
 }
 
 didascalia {
@@ -101,7 +101,7 @@ didascalia {
 }
 
 th {
-    colore di sfondo: giallo;
+    colore di sfondo:giallo;
 }
 
 td {
